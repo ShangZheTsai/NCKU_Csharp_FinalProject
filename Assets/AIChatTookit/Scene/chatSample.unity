@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3131054, g: 0.2938225, b: 0.5141637, a: 1}
+  m_IndirectSpecularColor: {r: 0.31292787, g: 0.29357672, b: 0.5140205, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3120,7 +3120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SpeechRecognizeURL: https://api.openai.com/v1/audio/transcriptions
-  api_key: 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
+  api_key: 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
 --- !u!114 &785927905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3134,7 +3134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PostURL: 
-  api_key: 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
+  api_key: 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
   m_ModelType: 0
   m_Voice: 3
 --- !u!1 &834105487
@@ -4033,7 +4033,7 @@ MonoBehaviour:
   lan: 
   m_HistoryKeepCount: 10
   m_DataList: []
-  api_key: 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
+  api_key: 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
   m_SystemSetting: 
   m_gptModel: gpt-3.5-turbo-0613
 --- !u!1 &1375135989
