@@ -3496,7 +3496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SpeechRecognizeURL: https://api.openai.com/v1/audio/transcriptions
-  api_key: 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
+  api_key: 
 --- !u!114 &785927905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3510,7 +3510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PostURL: 
-  api_key: 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
+  api_key: 
   m_ModelType: 0
   m_Voice: 2
 --- !u!1 &834105487
@@ -4355,7 +4355,7 @@ MonoBehaviour:
   lan: 
   m_HistoryKeepCount: 10
   m_DataList: []
-  api_key: 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
+  api_key: 
   m_SystemSetting: 
   m_gptModel: gpt-3.5-turbo-0613
 --- !u!1 &1375135989
