@@ -7,21 +7,23 @@ using UnityEngine;
 public class TTS : MonoBehaviour
 {
     /// <summary>
-    /// 语音合成的api地址
+    /// 語音合成的api地址
     /// </summary>
     [SerializeField] protected string m_PostURL = string.Empty;
     /// <summary>
-    /// 计算方法调用的时间
+    /// 計算方法調用的時間
+    /// 之後繼承會調用
     /// </summary>
     [SerializeField] protected Stopwatch stopwatch = new Stopwatch();
     /// <summary>
-    /// 语音合成，返回音频
+    /// 語音合成，返回音频
     /// </summary>
+    /// 以下單純說明參數
     /// <param name="_msg"></param>
     /// <param name="_callback"></param>
     public virtual void Speak(string _msg,Action<AudioClip> _callback) {}
     /// <summary>
-    /// 合成语音返回音频，同时返回合成的文本
+    /// 合成語音返回音频，同時返回合成的文本
     /// </summary>
     /// <param name="_msg"></param>
     /// <param name="_callback"></param>

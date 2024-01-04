@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/AIChatTookit/Scene/chatSample.unity
+    path: Assets/chatSample.unity
     guid: be82bc2a5c3a3e24cab142ce569bc5ed
   m_configObjects: {}

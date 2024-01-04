@@ -8,15 +8,16 @@ public class STT : MonoBehaviour
 {
 
     /// <summary>
-    /// 语音识别api地址
+    /// 語音辨識api地址
     /// </summary>
     [SerializeField] protected string m_SpeechRecognizeURL = String.Empty;
     /// <summary>
-    /// 计算方法调用的时间
+    /// 計算方法調用的時間
+    /// 之後繼承會調用
     /// </summary>
     [SerializeField] protected Stopwatch stopwatch = new Stopwatch();
     /// <summary>
-    /// 语音识别
+    /// 語音辨識
     /// </summary>
     /// <param name="_clip"></param>
     /// <param name="_callback"></param>
@@ -26,7 +27,7 @@ public class STT : MonoBehaviour
     }
 
     /// <summary>
-    /// 语音识别
+    /// 語音辨識
     /// </summary>
     /// <param name="_audioData"></param>
     /// <param name="_callback"></param>
